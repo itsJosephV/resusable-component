@@ -1,28 +1,17 @@
 import Button from "./components/Button";
 
 function App() {
-  const alertFn = () => {
-    confirm("asd");
-  };
-
   return (
-    <main className="container m-auto grid min-h-screen grid-rows-[auto,1fr,auto] px-4">
-      <header className="text-xl font-bold leading-[4rem]">Reusable Component</header>
+    <main className="container flex min-h-screen items-center justify-center px-4 antialiased">
       <div className="space-x-4 space-y-4">
-        <Button id="btn" size={"sm"} variant={"secondary"} onClick={() => console.log("clicked")}>
-          press
+        <Button id="btn" size={"sm"} variant={"secondary"} onClick={() => {}}>
+          press1
         </Button>
-        <Button id="btn" size={"md"} variant={"primary"} onClick={alertFn}>
-          delete
+        <Button id="btn" size={"md"} variant={"primary"} onClick={() => {}}>
+          press2
         </Button>
-        <Button
-          id="btn"
-          size={"lg"}
-          variant={"danger"}
-          onClick={alertFn}
-          onMouseEnter={() => alert("asd")}
-        >
-          delete
+        <Button id="btn" size={"lg"} variant={"danger"} onClick={() => {}}>
+          press3
         </Button>
       </div>
     </main>

@@ -19,7 +19,7 @@ const Button = ({children, className, variant, size, ...props}: Props) => {
 
 export default Button;
 
-const buttonVariants = cva("rounded-md", {
+const buttonVariants = cva("rounded-md capitalize", {
   variants: {
     variant: {
       primary:
