@@ -10,3 +10,5 @@
 - Tailwind
 - Class Variance Authority (CVA)
 - Tailwind-Merge & Clsx
+
+Credits to @Devistry
